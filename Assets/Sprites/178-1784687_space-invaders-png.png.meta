@@ -1,0 +1,796 @@
+fileFormatVersion: 2
+guid: 0333eaec97fdc3141aadc466a8809339
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1034
+        width: 108
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d30527a03f8923479cdbdfe61391d0a
+      internalID: 573716426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1031
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739aba811b8d0814f9f58dcc6bc49c93
+      internalID: -234708097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1032
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2230adf4849fd74199510b1c4f3cc6f
+      internalID: 2103741247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1032
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e0b4a143889d41be5e60624e326db
+      internalID: -265227610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1032
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f92f72a124df754da73c2bab4e4dc3c
+      internalID: -1713098482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_5
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1031
+        width: 104
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0013b5200a2478547984b55866c10d60
+      internalID: -1975533907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_6
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1031
+        width: 105
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c8488f90ec1d42b4cb3049ad81381
+      internalID: -322159577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_7
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1030
+        width: 87
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b265963327e46846b35dfffa1853861
+      internalID: -1064727242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_8
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1029
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a02fbacb82cf7e42a12f9a7e5d471d5
+      internalID: 660026271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 912
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21580ac021afc884fb2fa3ba910dfebf
+      internalID: -1378453406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 908
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfabda1fc64e9748bba21feb0066622
+      internalID: -1473597644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 906
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3656ae41dc9290341a410c7d175f60d4
+      internalID: 1679886326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_12
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 908
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbc404d1f64acd45b644a786a4a18a1
+      internalID: 1406551641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 907
+        width: 86
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd730f7302050e4aaaebe36132d1e55
+      internalID: 653026195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_14
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 911
+        width: 97
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da6af547e8670b48bed1a60d9fa0c4f
+      internalID: 272004245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_15
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 909
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac9af3b96a70f5498a7706ae7454215
+      internalID: -1618986134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_16
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 910
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d273c3526ef724bb40e6019484046b
+      internalID: 1592276836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_17
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 907
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7780f26ea0363c47ae7b941033417dd
+      internalID: 1014129907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 790
+        width: 85
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cef765c542a516409b346b7b936d400
+      internalID: 1002922568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 790
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667fdb84bca5dc7408defbfd8e9af5dc
+      internalID: 300797253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 790
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339541b712b8f7046810678eada0ba51
+      internalID: -1308435710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_21
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 795
+        width: 107
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b661ecc3b481134799ed84c513e3819
+      internalID: -1445290564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_22
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 794
+        width: 74
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26a280942a4e374f8eb7ce42016448a
+      internalID: 1295492041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_23
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 788
+        width: 95
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c000716da04d1e42bbcb524c012593f
+      internalID: -1960613689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_24
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 798
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2bde9cb9a06984b8d93617affd48e4
+      internalID: 1030143214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_25
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 794
+        width: 83
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127fd6fa26ca80040bd5ad064edd694d
+      internalID: -85857805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 641
+        width: 97
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb393ed136f96424aa1ee417b816c3b3
+      internalID: -372832988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_27
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 256
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd475069e0731d64b942fc197c49f814
+      internalID: -437794601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_28
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 145
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083c478434d99024f9a6c28bb4ccc05a
+      internalID: -2125354797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_29
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 16
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6088ea1e7338804fa7880b75c75d386
+      internalID: 2066534260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 178-1784687_space-invaders-png_30
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 14
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb213a4b983f92b478f482d967d7c635
+      internalID: 2114053730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      178-1784687_space-invaders-png_0: 573716426
+      178-1784687_space-invaders-png_1: -234708097
+      178-1784687_space-invaders-png_10: -1473597644
+      178-1784687_space-invaders-png_11: 1679886326
+      178-1784687_space-invaders-png_12: 1406551641
+      178-1784687_space-invaders-png_13: 653026195
+      178-1784687_space-invaders-png_14: 272004245
+      178-1784687_space-invaders-png_15: -1618986134
+      178-1784687_space-invaders-png_16: 1592276836
+      178-1784687_space-invaders-png_17: 1014129907
+      178-1784687_space-invaders-png_18: 1002922568
+      178-1784687_space-invaders-png_19: 300797253
+      178-1784687_space-invaders-png_2: 2103741247
+      178-1784687_space-invaders-png_20: -1308435710
+      178-1784687_space-invaders-png_21: -1445290564
+      178-1784687_space-invaders-png_22: 1295492041
+      178-1784687_space-invaders-png_23: -1960613689
+      178-1784687_space-invaders-png_24: 1030143214
+      178-1784687_space-invaders-png_25: -85857805
+      178-1784687_space-invaders-png_26: -372832988
+      178-1784687_space-invaders-png_27: -437794601
+      178-1784687_space-invaders-png_28: -2125354797
+      178-1784687_space-invaders-png_29: 2066534260
+      178-1784687_space-invaders-png_3: -265227610
+      178-1784687_space-invaders-png_30: 2114053730
+      178-1784687_space-invaders-png_4: -1713098482
+      178-1784687_space-invaders-png_5: -1975533907
+      178-1784687_space-invaders-png_6: -322159577
+      178-1784687_space-invaders-png_7: -1064727242
+      178-1784687_space-invaders-png_8: 660026271
+      178-1784687_space-invaders-png_9: -1378453406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
