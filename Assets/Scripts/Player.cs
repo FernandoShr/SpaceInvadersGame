@@ -68,4 +68,13 @@ public class Player : MonoBehaviour
         Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         nextFire = Time.time + fireRate;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            
+        }
+    }
+
 }

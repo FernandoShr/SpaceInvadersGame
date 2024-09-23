@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|h:\\unity\\projectsfei\\spaceinvaders3\\spaceinvaders\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|h:\\unity\\projectsfei\\spaceinvaders3\\spaceinvaders\\assets\\scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|h:\\unity\\projectsfei\\spaceinvaders3\\spaceinvaders\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\enemyarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\playerbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,6 +35,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyBullet.cs",
+              "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBullet.cs",
+              "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyBullet.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBullet.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:02:00.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyArea.cs",
+              "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyArea.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyArea.cs",
+              "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyArea.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyArea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T03:50:39.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
               "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
@@ -34,12 +67,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T04:38:18.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T04:38:18.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerBullet.cs",
               "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\PlayerBullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBullet.cs",
@@ -57,7 +89,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA1wCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAvwEsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T02:41:43.879Z",
               "EditorCaption": ""
