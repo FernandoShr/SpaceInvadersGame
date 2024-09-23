@@ -13,11 +13,21 @@ public class EnemyArea : MonoBehaviour
     [SerializeField] Enemy[] enemies;
     [SerializeField] int rows = 4, columns = 11;
 
+    public GameObject missilePrefab;
+    [SerializeField] float shootTimer = 3f;
+    const float shootTime = 3f;
+
+    public List<GameObject> allEnemies = new List<GameObject>();
+
+    public GameObject UfoPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+            allEnemies.Add(enemy);
+
+        InvokeRepeating(nameof(SpawnUfo), 10, Random.Range(10, 20));
     }
 
     // Update is called once per frame
@@ -36,6 +46,12 @@ public class EnemyArea : MonoBehaviour
             else if (direction == Vector2.left && Enemy.position.x <= leftEdge.x + 0.65)
                 AdvanceAlien();
         }
+
+        // Tiro dos inimigos
+        if (shootTimer <= 0)
+            EnemyShoot();
+
+        shootTimer -= Time.deltaTime;
     }
 
     void AdvanceAlien()
@@ -45,6 +61,11 @@ public class EnemyArea : MonoBehaviour
         Vector3 position = transform.position;
         position.y -= 0.7f;
         transform.position = position; 
+
+    }
+
+    public void EnemyKilled()
+    {
 
     }
 
@@ -66,5 +87,19 @@ public class EnemyArea : MonoBehaviour
             }
             
         }
+    }
+
+    private void EnemyShoot()
+    {
+        Vector2 pos = allEnemies[Random.Range(0, allEnemies.Count)].transform.position;
+
+        Instantiate(missilePrefab, pos, Quaternion.identity);
+
+        shootTimer = shootTime;
+    }
+
+    private void SpawnUfo()
+    {
+        Instantiate(UfoPrefab, new Vector2(6, 4.6f), Quaternion.identity); 
     }
 }

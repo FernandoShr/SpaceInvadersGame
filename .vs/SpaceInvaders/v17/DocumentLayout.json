@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|h:\\unity\\projectsfei\\spaceinvaders3\\spaceinvaders\\assets\\scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|h:\\unity\\projectsfei\\spaceinvaders3\\spaceinvaders\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\enemyarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|h:\\unity\\projectsfei\\spaceinvaders3\\spaceinvaders\\assets\\scripts\\enemyarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\ufo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ufo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\destroyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\playerbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{435C8792-8CED-684F-1777-1C6A741F16E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyBullet.cs",
-              "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyBullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBullet.cs",
-              "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyBullet.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyBullet.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Ufo.cs",
+              "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\Ufo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ufo.cs",
+              "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\Ufo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ufo.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:02:00.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T16:50:44.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "DestroyObject.cs",
+              "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\DestroyObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyObject.cs",
+              "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\DestroyObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DestroyObject.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:15:18.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyBullet.cs",
+              "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBullet.cs",
+              "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:02:00.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "EnemyArea.cs",
               "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyArea.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyArea.cs",
               "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\EnemyArea.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyArea.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:50:39.734Z"
+              "WhenOpened": "2024-09-23T03:50:39.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Enemy.cs",
               "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T04:38:18.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerBullet.cs",
               "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\PlayerBullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBullet.cs",
               "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\PlayerBullet.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerBullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T03:51:07.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "H:\\Unity\\ProjectsFei\\SpaceInvaders3\\SpaceInvaders\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAvwEsAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwC8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T02:41:43.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T02:41:43.879Z"
             }
           ]
         }
