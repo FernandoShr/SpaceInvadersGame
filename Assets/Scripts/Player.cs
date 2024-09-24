@@ -4,6 +4,7 @@ using System.ComponentModel.Design;
 using TMPro.EditorUtilities;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -18,7 +19,11 @@ public class Player : MonoBehaviour
     const float minX = -4.576696f;
     const float maxX = 4.576696f;
 
-   [SerializeField] float fireRate = 0.5f, nextFire;
+    [SerializeField] float fireRate = 0.5f, nextFire;
+
+    [SerializeField] int hp = 3;
+
+    UIManager uiManager;
 
     // Start is called before the first frame update
     void Start()
@@ -56,10 +61,6 @@ public class Player : MonoBehaviour
             if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && Time.time >= nextFire)
                 Shoot();
         }
-
-
-        
-        
     }
 
 
@@ -71,10 +72,20 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy") || collision.CompareTag("EnemyBullet"))
         {
-            
+            //if(uiManager.score > uiManager.hScore)
+            //{
+            //    PlayerPrefs.SetInt("HScore", uiManager.score);
+            //    uiManager.hScoreText.text = uiManager.score.ToString();
+            //}
+
+            hp--;
+            FindObjectOfType<UIManager>().UpdateHP(hp);
+            if (hp <= 0)
+                SceneManager.LoadScene("DerrotaCena");
         }
+
     }
 
 }

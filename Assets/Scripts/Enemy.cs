@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class Enemy : MonoBehaviour
         FindObjectOfType<UIManager>().UpdateScore(scoreValue);
         enemyArea.allEnemies.Remove(gameObject);
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
-        //enemyArea.EnemyKilled();
+        enemyArea.EnemyKilled();
         gameObject.SetActive(false);
     }
 
@@ -33,14 +34,17 @@ public class Enemy : MonoBehaviour
         
     }
 
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.CompareTag("Destroyer"))
-    //    {
-    //        if (uiManager.score > uiManager.hScore)
-    //        {
-    //            PlayerPrefs.SetInt("HScore", uiManager.score);
-    //        }
-    //    }
-    //}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Destroyer"))
+        {
+            //if (uiManager.score > uiManager.hScore)
+            //{
+            //    PlayerPrefs.SetInt("HScore", uiManager.score);
+            //    uiManager.hScoreText.text = uiManager.score.ToString();
+            //}
+
+            SceneManager.LoadScene("DerrotaCena");
+        }
+    }
 }

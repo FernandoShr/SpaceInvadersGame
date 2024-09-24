@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3908291081489081790}
   m_Layer: 0
   m_Name: Ufo
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 50
   speed: 2
+  explosionPrefab: {fileID: 7402377529396547184, guid: fa896a1d95eea0946ac5038e60c37420, type: 3}
 --- !u!50 &-5198936669260921287
 Rigidbody2D:
   serializedVersion: 4

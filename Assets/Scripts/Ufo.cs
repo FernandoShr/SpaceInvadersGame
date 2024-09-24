@@ -6,7 +6,8 @@ public class Ufo : MonoBehaviour
 {
     [SerializeField] int scoreValue;
     [SerializeField] float speed = 5;
-    
+
+    [SerializeField] GameObject explosionPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -24,14 +25,14 @@ public class Ufo : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Bullet"))
-    //    {
-    //        FindObjectOfType<UIManager>().UpdateScore(scoreValue);
-    //        Destroy(collision.gameObject);
-    //        Destroy(gameObject);
-    //    }
-    //}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            FindObjectOfType<UIManager>().UpdateScore(scoreValue);
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+    }
 }

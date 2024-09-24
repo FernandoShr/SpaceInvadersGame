@@ -24,11 +24,11 @@ public class PlayerBullet : MonoBehaviour
             if (!Input.GetKey(KeyCode.T))
                 Destroy(gameObject);
         }
-        //if (collision.gameobject.comparetag("enemybullet"))
-        //{
-        //    destroy(collision.gameobject);
-        //    destroy(gameobject);
-        //}
+        if (collision.gameObject.CompareTag("EnemyBullet"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
 
 }

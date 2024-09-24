@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Net.Http;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyArea : MonoBehaviour
 {
@@ -13,9 +14,12 @@ public class EnemyArea : MonoBehaviour
     [SerializeField] Enemy[] enemies;
     [SerializeField] int rows = 4, columns = 11;
 
+    [SerializeField] int amountDead;
+    const int totalEnemies = 44;
+
     public GameObject missilePrefab;
     [SerializeField] float shootTimer = 3f;
-    const float shootTime = 3f;
+    float shootTime = 3f;
 
     public List<GameObject> allEnemies = new List<GameObject>();
 
@@ -59,14 +63,28 @@ public class EnemyArea : MonoBehaviour
         direction.x *= -1;
 
         Vector3 position = transform.position;
-        position.y -= 0.7f;
+        position.y -= 0.45f;
         transform.position = position; 
 
     }
 
     public void EnemyKilled()
     {
+        amountDead++;
+        speed += 0.013f;
+        shootTime -= 0.05f;
+        if (shootTime <= 1.5f)
+            shootTime = 1.5f;
+        
+        if (speed >= 5)
+            speed = 5;
 
+        if (amountDead >= totalEnemies)
+        {
+            SceneManager.LoadScene("VitoriaCena");
+        }
+            
+        
     }
 
     private void Awake()
