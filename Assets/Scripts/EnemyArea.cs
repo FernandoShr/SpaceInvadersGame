@@ -70,11 +70,12 @@ public class EnemyArea : MonoBehaviour
 
     public void EnemyKilled()
     {
+        float shootTimeControler = 1.2f;
         amountDead++;
-        speed += 0.013f;
+        speed += 0.05f;
         shootTime -= 0.05f;
-        if (shootTime <= 1.5f)
-            shootTime = 1.5f;
+        if (shootTime <= shootTimeControler)
+            shootTime = shootTimeControler;
         
         if (speed >= 5)
             speed = 5;
@@ -118,6 +119,6 @@ public class EnemyArea : MonoBehaviour
 
     private void SpawnUfo()
     {
-        Instantiate(UfoPrefab, new Vector2(6, 4.6f), Quaternion.identity); 
+        Instantiate(UfoPrefab, new Vector2(9.81f, 4.6f), Quaternion.identity); 
     }
 }

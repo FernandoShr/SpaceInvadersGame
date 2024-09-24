@@ -20,7 +20,7 @@ public class Ufo : MonoBehaviour
     {
         transform.Translate(Vector2.left * Time.deltaTime * speed);
 
-        if (transform.position.x <= -5.6f)
+        if (transform.position.x <= -9.72f)
         {
             Destroy(gameObject);
         }

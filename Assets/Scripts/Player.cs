@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
-using TMPro.EditorUtilities;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -16,8 +15,8 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject bulletPrefab;
 
     [Header("LIMITS")]
-    const float minX = -4.576696f;
-    const float maxX = 4.576696f;
+    const float minX = -8.4f;
+    const float maxX = 8.4f;
 
     [SerializeField] float fireRate = 0.5f, nextFire;
 

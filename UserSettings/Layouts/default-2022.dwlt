@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 357
     height: 603
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -375,8 +375,8 @@ MonoBehaviour:
     y: 0
     width: 704
     height: 781
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -444,7 +444,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 34104
+  m_LastSelectedObjectID: 27818
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -484,7 +484,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: da1afeffa04afeffb64cfeff9c4dfeffae52feff5c57feff4c5bfeffa85bfefffa5bfeff4e5cfeff9e5cfefff25cfeff445dfeff9a5efeffec62feff8464fefff264feffee65feff9eeffeffa22affff248500002c850000
+      m_ExpandedIDs: 0e53ffff5e53ffffde54ffffec54ffff1e55ffff428effff948effffe68effff9ef4ffffeef4ffff6ef6ffff7cf6ffffa0f6ffff1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1000, y: 1000}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -559,16 +559,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 09000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -500
-    m_HBaseRangeMax: 500
-    m_VBaseRangeMin: -500
-    m_VBaseRangeMax: 500
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -588,7 +588,7 @@ MonoBehaviour:
       y: 21
       width: 876
       height: 561
-    m_Scale: {x: 0.561, y: 0.561}
+    m_Scale: {x: 0.45625, y: 0.45625}
     m_Translation: {x: 438, y: 280.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -596,12 +596,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -780.74866
-      y: -500
-      width: 1561.4973
-      height: 1000
+      x: -960
+      y: -614.7945
+      width: 1920
+      height: 1229.589
     m_MinimalGUI: 1
-  m_defaultScale: 0.561
+  m_defaultScale: 0.45625
   m_LastWindowPixelSize: {x: 876, y: 582}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -958,7 +958,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 1
       displayed: 1
-      snapOffset: {x: 580, y: 353}
+      snapOffset: {x: 573, y: 353}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
@@ -1016,9 +1016,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 451.15842, y: 524.3398, z: -3.9662266}
+    m_Target: {x: 5.25, y: 5.38, z: 0}
     speed: 2
-    m_Value: {x: 451.15842, y: 524.3398, z: -3.9662266}
+    m_Value: {x: 5.2499995, y: 5.3799996, z: 0.000000055250926}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1068,9 +1068,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 499.7007
+    m_Target: 10
     speed: 2
-    m_Value: 499.7007
+    m_Value: 10
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1140,7 +1140,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1148,16 +1148,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: H:\Unity\ProjectsFei\SpaceInvaders3\SpaceInvaders
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ae620000
-    m_LastClickedID: 25262
-    m_ExpandedIDs: 000000009c62000000ca9a3bffffff7f
+    m_SelectedIDs: b6620000
+    m_LastClickedID: 25270
+    m_ExpandedIDs: 00000000a062000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1185,7 +1185,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009c620000
+    m_ExpandedIDs: 00000000a0620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1216,15 +1216,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000cc6400009068000096680000c664000030620000f06b00002a6200001e6200009a610000c8610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Player
-      m_OriginalName: Player
+      m_Name: EnemyArea
+      m_OriginalName: EnemyArea
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 8242
+      m_UserData: 7988
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
